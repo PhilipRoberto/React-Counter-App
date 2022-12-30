@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+}
+
+.App {
+    height: 100vmin;
+    width: 100vmin;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    transition: all .3s ease-in-out;
+    padding: 12px;
+    margin: 12px;
+    border: none;
+    box-shadow: 2.4px 2.4px whitesmoke;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.btn-dec:hover {
+    background-color: red;
+    box-shadow: none;
+}
+
+.btn-res:hover {
+    background-color: grey;
+    box-shadow: none;
+}
+
+.btn-inc:hover {
+    background-color: green;
+    box-shadow: none;
+}
